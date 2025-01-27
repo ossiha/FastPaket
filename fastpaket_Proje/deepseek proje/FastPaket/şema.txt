@@ -1,0 +1,86 @@
+FastPaket/
+├── Backend/
+│   ├── Controllers/
+│   ├── Models/
+│   ├── Migrations/
+│   ├── Program.cs
+│   ├── Startup.cs
+│   └── appsettings.json
+├── Frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── App.css
+│   └── package.json
+├── Mobile/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── screens/
+│   │   ├── App.js
+│   │   └── App.css
+│   └── package.json
+├── Veritabanı/
+│   ├── CreateDatabase.sql
+│   ├── InsertSampleData.sql
+│   └── SiparisTakipDB.bak
+└── README.md
+
+
+-----------------------
+FastPaket/
+├── Backend/
+│   ├── Controllers/
+│   │   ├── KullaniciController.cs
+│   │   ├── SiparisController.cs
+│   │   ├── RestoranController.cs
+│   │   └── KuryeController.cs
+│   ├── Models/
+│   │   ├── Kullanici.cs
+│   │   ├── Siparis.cs
+│   │   ├── Restoran.cs
+│   │   └── Kurye.cs
+│   ├── Migrations/
+│   │   └── (Veritabanı migrasyon dosyaları)
+│   ├── Program.cs
+│   ├── Startup.cs
+│   └── appsettings.json
+FastPaket/
+├── Frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   ├── SiparisForm.js
+│   │   │   └── SiparisListesi.js
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   ├── Restoran.js
+│   │   │   └── Kurye.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── App.css
+│   └── package.json
+FastPaket/
+├── Mobile/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   ├── SiparisForm.js
+│   │   │   └── SiparisListesi.js
+│   │   ├── screens/
+│   │   │   ├── HomeScreen.js
+│   │   │   ├── RestoranScreen.js
+│   │   │   └── KuryeScreen.js
+│   │   ├── App.js
+│   │   └── App.css
+│   └── package.json
+FastPaket/
+├── Veritabanı/
+│   ├── CreateDatabase.sql
+│   ├── InsertSampleData.sql
+│   └── SiparisTakipDB.bak
+FastPaket/
+├── README.md
